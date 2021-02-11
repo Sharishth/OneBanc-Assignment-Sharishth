@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     color: white;
+    font-family: 'Roboto', sans-serif;
     background-size: cover;
-    background-repeat: no-repeat;
-    background: -webkit-linear-gradient(to left, #d3dfff, #2889cf);
-    background: linear-gradient(to left, #a8c0ff, #2889cf);
+    background: url(../img/bg.svg);
 }
+
+@media only screen and (max-width: 1099px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 
 #container {
     margin: 50px 0 0 0;
