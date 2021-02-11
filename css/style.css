@@ -1,0 +1,18 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(to left, #d3dfff, #2889cf);
+    background: linear-gradient(to left, #a8c0ff, #2889cf);
+}
+
+#container {
+    margin: 50px 0 0 0;
+    /*text-align: center;*/
+}
+
+#text {
+    display: inline-block;
+    color: white;
+    border-right: 3px solid white;
+    font-size: 4rem;
+}
