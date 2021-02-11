@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-    color: white;
+    
     font-family: 'Roboto', sans-serif;
     background-size: cover;
     background: url(../img/bg.svg);
-    margin: 0 0 0 0;
+    margin: 2rem 0 0 2rem;
 }
 
 @media only screen and (max-width: 1099px) {
@@ -21,6 +21,7 @@ body {
     .emailbx{
         
     }
+    
   }
 
 #container {
@@ -67,6 +68,9 @@ body {
     border-style: none;
     background:linear-gradient(to right, rgb(0, 169, 211), rgb(88, 255, 247));
 }
+.btn:hover {
+    background: linear-gradient(to right, green, lightgreen);
+}
  
 
 /*************************/
@@ -109,6 +113,9 @@ body {
     margin-bottom: 2px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+.button-agree:hover{
+    background-color: rgb(72, 121, 0);
+}
 .button-disagree{
     padding: 10px;
     border-style: none;
@@ -120,4 +127,41 @@ body {
     margin-left: 8px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-/*************************/
+.button-disagree:hover{
+    background-color: rgb(0, 0, 163);
+}
+
+@media(min-width:1099px) {
+    .container-1 {
+        display: flex;
+        /*
+      align-items:flex-start;
+      align-items:flex-end;
+      align-items:center;
+      
+      flex-direction:column;
+      */
+        align-items: stretch;
+
+}
+.container-1 {}
+
+.container-1  {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.box-1 {
+    flex: 1;
+    order: 1;
+    align-items: stretch;
+
+}
+
+.box-2 {
+    flex: 2;
+    order: 1;
+    align-items: stretch;
+    margin-left:10%;
+}
