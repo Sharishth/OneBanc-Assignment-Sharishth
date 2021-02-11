@@ -4,11 +4,22 @@ body {
     font-family: 'Roboto', sans-serif;
     background-size: cover;
     background: url(../img/bg.svg);
+    margin: 0 0 0 0;
 }
 
 @media only screen and (max-width: 1099px) {
     body {
-      background-color: lightblue;
+        background-repeat: no-repeat;
+        background: url(../img/mbg.svg);
+        margin-left: 20%;
+        background-size: cover;
+    }
+    .smalllogo {
+        height: 10%;
+        width: 10%;
+    }
+    .emailbx{
+        
     }
   }
 
@@ -26,6 +37,82 @@ body {
 
 .smalllogo {
     height: 132.13px;
-    width: 450px;
+    width: 450px; 
+}
+
+.emailbx {
+    background:#004da3;
+    max-width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.inpt {
+    padding:3px;
+    margin-top: 5px;
+    width: 85%;
+    border-style: none;
+    margin-left: 0px;
+}
+.btn {
+    color:white;
+    margin-right: 0px;
+    padding:3px;
+    border-style: none;
+    background:linear-gradient(to right, rgb(0, 169, 211), rgb(88, 255, 247));
+}
+
+/*************************/
+/*Agree Disagree*/
+.layer-1{
+    z-index: 1;
+}
+.layer-2{
+    z-index: 2;
+}
+.layer-3{
+    z-index: 3;
+}
+
+.pop-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-style: none;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 2em;
+    text-align: center;
+    width: fit-content;
     
 }
+.button-agree{
+    padding: 10px;
+    border-style: none;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: rgb(103, 172, 0);
+    font-size: 1.25em;
+    border-radius: 1em;
+    margin-right: 8px;
+    margin-bottom: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.button-disagree{
+    padding: 10px;
+    border-style: none;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: blue;
+    font-size: 1.25em;
+    border-radius: 1em;
+    margin-left: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+/*************************/
