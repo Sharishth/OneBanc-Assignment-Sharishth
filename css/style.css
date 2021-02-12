@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    
+
     font-family: 'Roboto', sans-serif;
     background-size: cover;
     background: url(../img/bg.svg);
@@ -14,19 +15,24 @@ body {
         margin-right: 20% !important;
         background-size: cover;
     }
+
     .smalllogo {
         height: 100% !important;
         width: 100% !important;
     }
-    .emailbx{
-        
-    }
+
+    .emailbx {}
+
     .box-2 {
         margin-left: 0% !important;
     }
-    #hideonmobile1{display:none;}
-    
-  }
+}
+
+@media only screen and (max-width: 643px) {
+    #hideonmobile1 {
+        display: none;
+    }
+}
 
 #container {
     margin: 50px 0 0 0;
@@ -42,50 +48,54 @@ body {
 
 .smalllogo {
     height: 132.13px;
-    width: 450px; 
+    width: 450px;
 }
 
 .emailbx {
-    background:#004da3;
+    background: #004da3;
     max-width: max-content;
     padding: 15px;
     border-radius: 5px;
     font-size: larger;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .inpt {
-    padding:3px;
+    padding: 3px;
     margin-top: 5px;
     width: 75%;
     border-style: none;
-    font-size:16px;
+    font-size: 16px;
     border-radius: 0 0 0 0;
 }
+
 .btn {
     border-radius: 0 0 0 0;
-    color:white;
+    color: white;
     margin-top: 5px;
-    font-size:16px;
-    padding:3px;
+    font-size: 16px;
+    padding: 3px;
     width: 15%;
     border-style: none;
-    background:linear-gradient(to right, rgb(0, 169, 211), rgb(88, 255, 247));
+    background: linear-gradient(to right, rgb(0, 169, 211), rgb(88, 255, 247));
 }
+
 .btn:hover {
     background: linear-gradient(to right, green, lightgreen);
 }
- 
+
 
 /*************************/
 /*Agree Disagree*/
-.layer-1{
+.layer-1 {
     z-index: 1;
 }
-.layer-2{
+
+.layer-2 {
     z-index: 2;
 }
-.layer-3{
+
+.layer-3 {
     z-index: 3;
 }
 
@@ -96,16 +106,17 @@ body {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     border-style: none;
     padding: 10px;
     background-color: aliceblue;
     border-radius: 2em;
     text-align: center;
     width: fit-content;
-    
+
 }
-.button-agree{
+
+.button-agree {
     padding: 10px;
     border-style: none;
     font-weight: bolder;
@@ -115,12 +126,14 @@ body {
     border-radius: 1em;
     margin-right: 8px;
     margin-bottom: 2px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-.button-agree:hover{
+
+.button-agree:hover {
     background-color: rgb(72, 121, 0);
 }
-.button-disagree{
+
+.button-disagree {
     padding: 10px;
     border-style: none;
     font-weight: bolder;
@@ -129,9 +142,10 @@ body {
     font-size: 1.25em;
     border-radius: 1em;
     margin-left: 8px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-.button-disagree:hover{
+
+.button-disagree:hover {
     background-color: rgb(0, 0, 163);
 }
 
@@ -147,26 +161,32 @@ body {
       */
         align-items: stretch;
 
-}
-.container-1 {}
+    }
 
-.container-1  {
-    /*comment box shadow*/
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23), 0 3px 6px rgba(0, 0, 0, 0.23);
-    padding: 20px;
-    padding-bottom: 50px;
-}
+    .container-1 {}
 
-.box-1 {
-    flex: 1;
-    order: 1;
-    align-items: stretch;
+    .container-1 {
+        /*comment box shadow*/
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23), 0 3px 6px rgba(0, 0, 0, 0.23);
+        padding: 20px;
+        padding-bottom: 50px;
+    }
 
-}
+    .box-1 {
+        flex: 1;
+        order: 1;
+        align-items: stretch;
 
-.box-2 {
-    flex: 2;
-    order: 1;
-    align-items: stretch;
-    margin-left:10%;
-}
+    }
+
+    .box-2 {
+        flex: 2;
+        order: 1;
+        align-items: stretch;
+        margin-left: 10%;
+    }
+
+    .imgsmall{
+        height: 20%;
+        width: 20%;
+    }
