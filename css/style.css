@@ -38,6 +38,11 @@ body {
 }
 
 @media only screen and (max-width: 735px) {
+    body {
+        background-repeat: no-repeat;
+        background: url(../img/mbg.svg);
+    }
+
     #hideonmobile1 {
         display: none;
     }
